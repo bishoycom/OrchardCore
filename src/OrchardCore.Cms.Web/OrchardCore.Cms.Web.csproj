@@ -6,7 +6,7 @@
   <PropertyGroup>
     <TargetFrameworks>$(CommonTargetFrameworks)</TargetFrameworks>
     <WarningsNotAsErrors>612,618</WarningsNotAsErrors>
-    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <AspNetCoreHostingModel>OutOfProcess</AspNetCoreHostingModel>
     <RazorRuntimeCompilation>false</RazorRuntimeCompilation>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
